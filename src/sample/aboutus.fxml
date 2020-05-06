@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AboutUsController">
+   <children>
+      <Label fx:id="ImanNurLabel" layoutX="260.0" layoutY="97.0" text="Iman-Nur">
+         <font>
+            <Font name="AR CENA" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="textLabel" layoutX="234.0" layoutY="140.0" prefHeight="167.0" prefWidth="296.0" text="If you want to try real Kazakh crepes in a cozy environment where you can relax with family, friends and loved ones, hold a business meeting in a relaxed atmosphere - it is absolutely not necessary to fly to Kazakhstan. It is enough to visit our institution &quot;Iman-&quot;. You will find yourself in a calm and cozy atmosphere, which is no different from the Kazakh original." wrapText="true">
+         <font>
+            <Font name="Aparajita" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgBesh" fitHeight="110.0" fitWidth="200.0" layoutX="14.0" layoutY="168.0">
+         <image>
+            <Image url="@img/b4df1508.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

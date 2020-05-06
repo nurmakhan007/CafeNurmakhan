@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+   <children>
+      <Label fx:id="drinkLabel" layoutX="84.0" layoutY="163.0" text="Drinks:&#10;1)Kumys - 1200 tng&#10;2)Airan - 900 tng&#10;3)Shubat - 1100 tng&#10;4)Coca-Cola - 250 tng&#10;5)Fanta - 250 tng">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="foodLabel" layoutX="324.0" layoutY="192.0" text="Foods:&#10;1)Beshbarmak - 1200 tng&#10;2)Kuirdak - 1100 tng&#10;3)Baursak - 250 tng">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgMenuBesh" fitHeight="126.0" fitWidth="204.0" layoutX="278.0" layoutY="57.0">
+         <image>
+            <Image url="@img/unnamed.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ContactController">
+   <children>
+      <ScrollPane layoutX="218.0" layoutY="32.0" prefHeight="289.0" prefWidth="331.0">
+         <content>
+            <ImageView fx:id="ImgCard" fitHeight="198.0" fitWidth="336.0">
+               <image>
+                  <Image url="@img/data=nIMhBHNRY_W13_PBrcLsF4rQouzmv21hqhER6xIGBxCgIB13qODgcTQbowv_iC6EAihuylCDa6_EvEIQoG3A0wy6Q6-sgPewhXzc8RF5IPPTWji59bgJfNGu-UVAMd5L0n33y8yZhMszsBAdTA_UttEx5P8OVYZ1mg.png" />
+               </image>
+            </ImageView>
+         </content>
+      </ScrollPane>
+      <Label fx:id="EmailLabel" layoutX="56.0" layoutY="136.0" prefHeight="17.0" prefWidth="69.0" text="E-mail">
+         <font>
+            <Font name="AR JULIAN" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="dataEmailLabel" layoutX="50.0" layoutY="183.0" prefHeight="34.0" prefWidth="82.0" text="info@Iman-Nur.kz">
+         <font>
+            <Font name="AR CENA" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="MobilePhoneLabel" layoutX="49.0" layoutY="61.0" text="MobilePhone">
+         <font>
+            <Font name="AR JULIAN" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumberLabel" layoutX="66.0" layoutY="101.0" prefHeight="17.0" prefWidth="102.0" text="+7 778 388 89 75">
+         <font>
+            <Font name="AR CENA" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="adressLabel" layoutX="24.0" layoutY="224.0" text="The address">
+         <font>
+            <Font name="AR JULIAN" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="dataAdressLabel" layoutX="36.0" layoutY="268.0" prefHeight="53.0" prefWidth="121.0" text="STR. KUNAEVA 12/1, ASTANA&#10;&#10;STR. MANGILIK EL 17, ASTANA&#10;&#10;STR. IMANOVA 16, ASTANA">
+         <font>
+            <Font name="AR CENA" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignupController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="601.0">
+         <image>
+            <Image url="@img/depositphotos_167218806-stock-photo-cafe-restaurant-sea-view-deck.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="RegistrationLabel" layoutX="240.0" layoutY="14.0" text="Registration" textFill="#8a2929">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="loginField" layoutX="241.0" layoutY="63.0" promptText="Enter your Login" />
+      <JFXPasswordField fx:id="passwordField" layoutX="241.0" layoutY="119.0" promptText="Enter your password" />
+      <JFXPasswordField fx:id="confrimpasswordField" layoutX="241.0" layoutY="175.0" promptText="Confirm password" />
+      <JFXTextField fx:id="emailField" layoutX="242.0" layoutY="236.0" promptText="Enter your email" />
+      <JFXTextField fx:id="mobilePhoneField" layoutX="241.0" layoutY="289.0" promptText="Enter your mobilePhone" />
+      <Button fx:id="RegistrationButton" layoutX="258.0" layoutY="342.0" mnemonicParsing="false" text="Registration" />
+      <Button fx:id="ExitButton" layoutX="54.0" layoutY="342.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="53.0" text="Exit" />
+   </children>
+</AnchorPane>

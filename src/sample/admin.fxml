@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminController">
+   <children>
+      <ImageView fx:id="imgAdmin" fitHeight="400.0" fitWidth="600.0" layoutX="1.0" layoutY="-4.0">
+         <image>
+            <Image url="@img/admkafe2.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tableViewAdmin" layoutX="193.0" layoutY="72.0" prefHeight="200.0" prefWidth="249.0">
+         <columns>
+            <TableColumn fx:id="tableColumnName" prefWidth="75.0" text="name" />
+            <TableColumn fx:id="tableColumnNameofFood" prefWidth="98.0" text="nameOfFood" />
+            <TableColumn fx:id="tableColumnPrice" prefWidth="52.0" text="Price" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="exitButton" layoutX="33.0" layoutY="342.0" text="Exit">
+         <font>
+            <Font name="AR CENA" size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
